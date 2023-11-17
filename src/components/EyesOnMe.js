@@ -6,12 +6,12 @@ function EyesOnMe() {
         console.log("Good!");
     }
 
-    function Blur() {
+    function blur() {
         console.log("Hey! Eyes on me!");
     }
 
     return (
-        <button onFocus={focus} onBlur={Blur}>
+        <button onFocus={focus} onBlur={blur}>
             Eyes on me
         </button>
     );
